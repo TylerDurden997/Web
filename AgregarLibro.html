@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Este es el formulario para agregar un libro">
+	<meta name="author" content="Juan Pablo Escobar Arenas">
+	<meta name="copyright" content="WEBJP, Inc.">
+	<link rel="icon" href="library.ico">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap" rel="stylesheet">	
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Agregar un Libro</title> 
+</head>
+<body class="body__add">
+	<header class="header__add">
+		<div class="header__add-div1">
+			<a href="main.html"><button aria-label="cerrar"></button></a>
+		</div>
+		<div class="header__add-div2">
+			<h1>Agregar un Libro</h1>
+		</div>
+		<div class="header__add-div3">
+			<button></button>
+		</div>
+	</header>
+
+	<article class="article__add">
+			<section class="article__add-section">
+				<form class="article__add-section-form">
+					<div class="article__add-section-form-div">
+						<p>Autor:</p>
+						<input type="text" name="author" placeholder="Autor">
+						<p>Título del Material:</p>
+						<input type="text" name="tmaterial" placeholder="Título">
+						<p>Numero de Edición:</p>
+						<input type="text" name="edition" placeholder="Número de Edición">
+						<p>Lugar de Publicación:</p>
+						<input type="text" name="lpublication" placeholder="Lugar de Publicación">
+						<p>Año de Edición:</p>
+						<input type="text" name="dateedition" placeholder="Año de Edición">
+						<p>Número de Páginas:</p>
+						<input type="text" name="numpag" placeholder="Número de Páginas">
+						<p>Género:</p>
+						<input type="text" name="gender" placeholder="Género">
+						<p>Comentarios:</p>
+						<textarea name="textarea" rows="10" cols="50" placeholder="Comentarios"></textarea>
+					</div >
+				</form> 
+				<div class="article__add-section-div">
+					<div class="article__add-section-div1">
+						<p>Código ISBN: </p>
+						<input type="button" name="codisbn" value="Examinar">
+					</div>
+					<div class="article__add-section-div2">
+						<p>Imagen Portada:</p>
+						<input type="button" name="portada" value="Examinar">
+					</div>
+				</div>
+				
+			</section>
+	</article>
+
+	<footer class="main__footer">
+		<h4 >Contacto: juanp.escobar@udea.edu.co</h4>
+		<h4>Mi Biblioteca</h4>
+		<h4>2021</h4>
+	</footer>
+</body>
+</html>
